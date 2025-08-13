@@ -67,7 +67,7 @@ const About = () => {
                                         </div>
                                         <div className="space-y-2">
                                             <h4 className="font-semibold text-primary drop-shadow-md">Prizes</h4>
-                                            <p className="drop-shadow-sm">₹15,000+ Prize Pool</p>
+                                            <p className="drop-shadow-sm">₹30,000+ Prize Pool</p>
                                         </div>
                                     </div>
 
