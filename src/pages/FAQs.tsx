@@ -1,6 +1,7 @@
 import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { MessageCircle } from "lucide-react";
+import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 
 const faqData = [
     {
@@ -38,33 +39,20 @@ const faqData = [
 const FAQs = () => {
     return (
         <>
-            {/* Section Separator */}
-            <div className="relative h-32 overflow-hidden">
-                <div className="absolute inset-0 bg-gradient-to-r from-blue-600/30 via-indigo-500/40 to-blue-600/30"></div>
-                <div className="absolute inset-0 bg-gradient-to-b from-background via-transparent to-background"></div>
-                <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
-                    <div className="w-24 h-1 bg-gradient-to-r from-transparent via-blue-500 to-transparent"></div>
-                </div>
-            </div>
-
-            <section id="faqs" className="relative py-20 px-4 overflow-hidden">
-                {/* Background Video */}
+            <section id="faqs" className="relative py-20 px-4 overflow-hidden transition-all duration-700 ease-in-out">
+                {/* Background Image */}
                 <div className="absolute inset-0 z-0">
-                    <video
-                        autoPlay
-                        loop
-                        muted
-                        playsInline
+                    <img
+                        src="https://res.cloudinary.com/drr3xypxn/image/upload/v1755089318/8_ulejhr.jpg"
+                        alt="Team Background"
                         className="w-full h-full object-cover"
-                    >
-                        <source src="/faq section vid.mp4" type="video/mp4" />
-                    </video>
+                    />
                     <div className="absolute inset-0 bg-black/70"></div>
                     <div className="absolute inset-0 bg-gradient-to-b from-black/50 via-transparent to-black/50"></div>
                 </div>
 
                 <div className="relative z-10 max-w-4xl mx-auto">
-                    <h2 className="text-4xl font-cinzel font-bold text-center mb-16 demon-text drop-shadow-lg">
+                    <h2 className="text-4xl font-cinzel font-bold text-center mb-6 demon-text drop-shadow-lg flex flex-col items-center">
                         Frequently Asked Questions
                         <div
                             className="text-base mt-2 text-gray-300"
@@ -74,19 +62,22 @@ const FAQs = () => {
                         </div>
                     </h2>
 
-                    <div className="space-y-4">
+                    <Accordion type="single" collapsible className="space-y-4">
                         {faqData.map((faq, idx) => (
-                            <Card
-                                key={idx}
-                                className={`p-6 hover-blade cursor-blade bg-gray-900/90 backdrop-blur-xl border ${faq.border} transition-all duration-500 shadow-2xl`}
+                            <AccordionItem 
+                                key={idx} 
+                                value={`item-${idx}`}
+                                className={`p-4 hover-blade cursor-blade bg-gray-900/90 backdrop-blur-xl border ${faq.border} transition-all duration-500 shadow-2xl rounded-lg overflow-hidden accordion-item`}
                             >
-                                <h3 className="text-xl font-semibold text-primary mb-3 drop-shadow-lg">
+                                <AccordionTrigger className="text-xl font-semibold text-primary drop-shadow-lg hover:no-underline">
                                     {faq.question}
-                                </h3>
-                                <p className="text-gray-300 drop-shadow-md">{faq.answer}</p>
-                            </Card>
+                                </AccordionTrigger>
+                                <AccordionContent className="text-gray-300 drop-shadow-md pt-2">
+                                    {faq.answer}
+                                </AccordionContent>
+                            </AccordionItem>
                         ))}
-                    </div>
+                    </Accordion>
 
                     <div className="text-center mt-12">
                         <Button

@@ -3,30 +3,14 @@ import { Card } from "@/components/ui/card";
 const About = () => {
     return (
         <>
-            {/* Section Separator */}
-            <div className="relative h-32 bg-gradient-to-b from-black/80 via-primary/10 to-transparent">
-                <div className="absolute inset-0 bg-gradient-to-r from-primary/20 via-secondary/30 to-accent/20"></div>
-                <div className="absolute bottom-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-primary to-transparent"></div>
-                {/* Decorative elements */}
-                <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
-                    <div className="w-16 h-16 border-2 border-primary/30 rounded-full flex items-center justify-center backdrop-blur-sm bg-card/20">
-                        <div className="w-8 h-8 bg-gradient-to-r from-primary to-secondary rounded-full animate-mystical-pulse"></div>
-                    </div>
-                </div>
-            </div>
-
-            <section id="about" className="relative py-20 px-4 overflow-hidden">
-                {/* Video Background */}
+            <section id="about" className="relative py-20 px-4 overflow-hidden transition-all duration-700 ease-in-out">
+                {/* Image Background */}
                 <div className="absolute inset-0 w-full h-full">
-                    <video
-                        autoPlay
-                        loop
-                        muted
-                        playsInline
+                    <img
+                        src="https://res.cloudinary.com/drr3xypxn/image/upload/v1755089312/2_t5rwsh.jpg" 
+                        alt="About Background"
                         className="absolute inset-0 w-full h-full object-cover"
-                    >
-                        <source src="/about section vid.mp4" type="video/mp4" />
-                    </video>
+                    />
                     {/* Dark overlay for better content readability */}
                     <div className="absolute inset-0 bg-black/60"></div>
                     {/* Gradient overlay for theme consistency */}
@@ -34,7 +18,7 @@ const About = () => {
                 </div>
 
                 <div className="relative z-10 max-w-7xl mx-auto">
-                    <h2 className="text-4xl font-cinzel font-bold text-center mb-16 demon-text drop-shadow-2xl">
+                    <h2 className="text-4xl font-cinzel font-bold text-center mb-16 demon-text drop-shadow-2xl flex flex-col items-center">
                         About the Hackathon
                         <span className="block text-base mt-2 text-gray-300" style={{ fontSize: "0.85em" }}>
                             ハッカソンについて
@@ -80,7 +64,7 @@ const About = () => {
                                         </div>
                                         <div className="space-y-2">
                                             <h4 className="font-semibold text-primary drop-shadow-md">Prizes</h4>
-                                            <p className="drop-shadow-sm">₹15,000+ Prize Pool</p>
+                                            <p className="drop-shadow-sm">₹30,000+ Prize Pool</p>
                                         </div>
                                     </div>
 
@@ -99,7 +83,7 @@ const About = () => {
                             <div className="relative z-10 transform group-hover:-translate-y-2 transition-transform duration-300">
                                 <div className="relative overflow-hidden rounded-xl group-hover:scale-105 transition-transform duration-500">
                                     <img
-                                        src="C:/Users/ISHAAN/OneDrive/Desktop/CLASSROOM/codeslayerlogo.jpeg"
+                                        src="https://res.cloudinary.com/drr3xypxn/image/upload/v1755663220/logo_thgntd.jpg"
                                         alt="Code Slayer Hackathon"
                                         className="w-full h-auto object-contain max-h-96 group-hover:scale-110 transition-transform duration-700 drop-shadow-2xl"
                                     />
