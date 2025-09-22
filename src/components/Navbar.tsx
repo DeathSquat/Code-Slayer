@@ -101,7 +101,7 @@ const Navbar: React.FC = () => {
           <div className="hidden md:flex items-center space-x-4 pl-10">
             <Button
               className="relative overflow-hidden bg-gradient-to-r from-primary to-secondary hover:from-secondary hover:to-primary text-white font-semibold px-6 py-2 rounded-lg transition-all duration-300 hover:scale-105 hover:shadow-lg hover:shadow-primary/30 cursor-blade group"
-              onClick={() => window.open("https://chat.whatsapp.com/E28GNRJEjxrGOwZJoAy5bB", "_blank")}
+              onClick={() => window.open("https://chat.whatsapp.com/B80btwjbmkvDifzRmmQGd4", "_blank")}
             >
               <LogIn className="mr-2 h-4 w-4 group-hover:rotate-12 transition-transform duration-300" />
               <span>CONTACT</span>

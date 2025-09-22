@@ -7,7 +7,7 @@ const faqData = [
     {
         question: "What is CodeSlayer 2025?",
         answer:
-            "CodeSlayer is a thrilling 36-hour anime-themed hackathon inspired by Demon Slayer, hosted at IIIT Delhi. Participants will battle through 3 intense rounds, building innovative solutions while embracing the spirit of creativity, speed, and teamwork. The event features a dynamic website with sections for registration, schedules, FAQs, and more.",
+            "CodeSlayer is a thrilling 36-hour anime-themed hackathon inspired by Demon Slayer. Participants will battle through 3 intense rounds, building innovative solutions while embracing the spirit of creativity, speed, and teamwork. The event features a dynamic website with sections for registration, schedules, FAQs, and more.",
         border: "border-blue-500/50 group hover:border-blue-400/80 hover:shadow-blue-500/30",
     },
     {
@@ -84,7 +84,7 @@ const FAQs = () => {
                             className="bg-green-500 hover:bg-green-600 text-white px-8 py-4 cursor-blade transition-all duration-300 hover:scale-105 shadow-2xl hover:shadow-green-500/40 backdrop-blur-sm border border-green-400/30"
                             onClick={() =>
                                 window.open(
-                                    "https://chat.whatsapp.com/E28GNRJEjxrGOwZJoAy5bB",
+                                    "https://chat.whatsapp.com/B80btwjbmkvDifzRmmQGd4",
                                     "_blank"
                                 )
                             }

@@ -128,7 +128,7 @@ const Footer = () => {
                 className="w-full bg-green-500 hover:bg-green-600 text-white cursor-blade mb-4 transition-all duration-300 hover:scale-105"
                 onClick={() =>
                   window.open(
-                    "https://chat.whatsapp.com/E28GNRJEjxrGOwZJoAy5bB",
+                    "https://chat.whatsapp.com/B80btwjbmkvDifzRmmQGd4",
                     "_blank"
                   )
                 }

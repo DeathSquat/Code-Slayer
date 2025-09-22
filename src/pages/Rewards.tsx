@@ -113,8 +113,34 @@ const Rewards = () => {
                             参加者特別賞品
                         </div>
                     </h3>
-
+                
                     <div className="grid md:grid-cols-5 gap-7 max-w-8xl mx-auto mt-9">
+                
+                        {/* Mystery Winner */}
+                        <div className="group relative cursor-blade perspective-1000">
+                            <div className="relative w-full h-[350px] transform-style-preserve-3d transition-all duration-700 group-hover:rotate-y-6 group-hover:scale-105">
+                                <div className="absolute -inset-4 bg-gradient-to-r from-cyan-500/30 via-blue-500/30 to-cyan-500/30 rounded-2xl opacity-0 group-hover:opacity-100 blur-xl transition-all duration-500"></div>
+                                <div className="absolute -inset-1 bg-gradient-to-r from-cyan-500 via-blue-500 to-cyan-500 rounded-xl opacity-60 group-hover:opacity-100 blur-sm transition-all duration-500"></div>
+                                <Card className="relative w-full h-full bg-gradient-to-br from-gray-900/98 via-gray-800/98 to-gray-900/98 backdrop-blur-xl border border-cyan-500/50 rounded-xl overflow-hidden group-hover:border-cyan-400/90 transition-all duration-500 shadow-2xl group-hover:shadow-cyan-500/40">
+                                    <div className="absolute top-2 left-1/2 transform -translate-x-1/2 z-10">
+                                        <div className="bg-gradient-to-r from-cyan-400 to-blue-600 text-white px-6 py-2 rounded-full text-sm font-bold shadow-lg transform group-hover:scale-110 transition-transform duration-300 skew-x-[-8deg] drop-shadow-lg">
+                                            Mystery Winner
+                                        </div>
+                                    </div>
+                                    <div className="relative p-8 pt-16 h-full flex flex-col justify-center items-center text-center transform group-hover:-translate-y-3 transition-transform duration-500">
+                                        <div className="mb-6 transform group-hover:scale-110 group-hover:rotate-12 transition-all duration-500">
+                                            <div className="h-20 w-20 mx-auto text-cyan-400 drop-shadow-lg bg-gray-800 rounded-full flex items-center justify-center">
+                                                <img src={"/SP1.jpg"} alt="Mystery Winner" className="object-cover rounded-full" />
+                                            </div>
+                                        </div>
+                                        <h4 className="text-1xl font-bold mb-3 text-cyan-400 group-hover:text-cyan-300 transition-colors duration-300 drop-shadow-lg">Mystery Winner</h4>
+                                        {/* <p className="text-sm text-gray-300 mb-6 group-hover:text-white transition-colors duration-300 drop-shadow-md">EXCEPTIONAL USER EXPERIENCE</p> */}
+                                        <div className="text-3xl font-bold text-white group-hover:scale-110 transition-transform duration-300 drop-shadow-xl">₹2,000</div> 
+                                    </div>
+                                </Card>
+                            </div>
+                        </div>
+                
                         {/* All Girls Team */}
                         <div className="group relative cursor-blade perspective-1000">
                             <div className="relative w-full h-[350px] transform-style-preserve-3d transition-all duration-700 group-hover:rotate-y-6 group-hover:scale-105">
@@ -128,7 +154,9 @@ const Rewards = () => {
                                     </div>
                                     <div className="relative p-8 pt-16 h-full flex flex-col justify-center items-center text-center transform group-hover:-translate-y-3 transition-transform duration-500">
                                         <div className="mb-6 transform group-hover:scale-110 group-hover:rotate-12 transition-all duration-500">
-                                            <div className="h-20 w-20 mx-auto text-purple-400 drop-shadow-lg">🎨</div>
+                                            <div className="h-20 w-20 mx-auto text-purple-400 drop-shadow-lg bg-gray-800 rounded-full flex items-center justify-center">
+                                                <img src={"/SP2.png"} alt="All Girls" className="object-cover rounded-full" />
+                                            </div>
                                         </div>
                                         <h4 className="text-1xl font-bold mb-3 text-purple-400 group-hover:text-purple-300 transition-colors duration-300 drop-shadow-lg">All Girls Team</h4>
                                         {/* <p className="text-sm text-gray-300 mb-6 group-hover:text-white transition-colors duration-300 drop-shadow-md">EXCEPTIONAL USER EXPERIENCE</p> */}
@@ -137,30 +165,7 @@ const Rewards = () => {
                                 </Card>
                             </div>
                         </div>
-
-                        {/* Best Fresher Team */}
-                        <div className="group relative cursor-blade perspective-1000">
-                            <div className="relative w-full h-[350px] transform-style-preserve-3d transition-all duration-700 group-hover:rotate-y-6 group-hover:scale-105">
-                                <div className="absolute -inset-4 bg-gradient-to-r from-cyan-500/30 via-blue-500/30 to-cyan-500/30 rounded-2xl opacity-0 group-hover:opacity-100 blur-xl transition-all duration-500"></div>
-                                <div className="absolute -inset-1 bg-gradient-to-r from-cyan-500 via-blue-500 to-cyan-500 rounded-xl opacity-60 group-hover:opacity-100 blur-sm transition-all duration-500"></div>
-                                <Card className="relative w-full h-full bg-gradient-to-br from-gray-900/98 via-gray-800/98 to-gray-900/98 backdrop-blur-xl border border-cyan-500/50 rounded-xl overflow-hidden group-hover:border-cyan-400/90 transition-all duration-500 shadow-2xl group-hover:shadow-cyan-500/40">
-                                    <div className="absolute top-2 left-1/2 transform -translate-x-1/2 z-10">
-                                        <div className="bg-gradient-to-r from-cyan-400 to-blue-600 text-white px-6 py-2 rounded-full text-sm font-bold shadow-lg transform group-hover:scale-110 transition-transform duration-300 skew-x-[-8deg] drop-shadow-lg">
-                                            Best Fresher Team
-                                        </div>
-                                    </div>
-                                    <div className="relative p-8 pt-16 h-full flex flex-col justify-center items-center text-center transform group-hover:-translate-y-3 transition-transform duration-500">
-                                        <div className="mb-6 transform group-hover:scale-110 group-hover:rotate-12 transition-all duration-500">
-                                            <div className="h-20 w-20 mx-auto text-cyan-400 drop-shadow-lg">💡</div>
-                                        </div>
-                                        <h4 className="text-1xl font-bold mb-3 text-cyan-400 group-hover:text-cyan-300 transition-colors duration-300 drop-shadow-lg">Best Fresher Team</h4>
-                                        {/* <p className="text-sm text-gray-300 mb-6 group-hover:text-white transition-colors duration-300 drop-shadow-md">EXCEPTIONAL USER EXPERIENCE</p> */}
-                                        <div className="text-3xl font-bold text-white group-hover:scale-110 transition-transform duration-300 drop-shadow-xl">₹2,000</div> 
-                                    </div>
-                                </Card>
-                            </div>
-                        </div>
-
+                
                         {/* Web3 Master */}
                         <div className="group relative cursor-blade perspective-1000">
                             <div className="relative w-full h-[350px] transform-style-preserve-3d transition-all duration-700 group-hover:rotate-y-6 group-hover:scale-105">
@@ -174,7 +179,9 @@ const Rewards = () => {
                                     </div>
                                     <div className="relative p-8 pt-16 h-full flex flex-col justify-center items-center text-center transform group-hover:-translate-y-3 transition-transform duration-500">
                                         <div className="mb-6 transform group-hover:scale-110 group-hover:rotate-12 transition-all duration-500">
-                                            <div className="h-20 w-20 mx-auto text-green-400 drop-shadow-lg">🎯</div>
+                                            <div className="h-20 w-20 mx-auto text-green-400 drop-shadow-lg bg-gray-800 rounded-full flex items-center justify-center">
+                                                <img src={"/SP3.jpg"} alt="Web3 Master" className="object-cover rounded-full" />
+                                            </div>
                                         </div>
                                         <h4 className="text-1xl font-bold mb-3 text-green-400 group-hover:text-green-300 transition-colors duration-300 drop-shadow-lg">Web3 Master</h4>
                                         {/* <p className="text-sm text-gray-300 mb-6 group-hover:text-white transition-colors duration-300 drop-shadow-md">EXCEPTIONAL USER EXPERIENCE</p> */}
@@ -183,7 +190,7 @@ const Rewards = () => {
                                 </Card>
                             </div>
                         </div>
-
+                
                         {/* AI/ML Master */}
                         <div className="group relative cursor-blade perspective-1000">
                             <div className="relative w-full h-[350px] transform-style-preserve-3d transition-all duration-700 group-hover:rotate-y-6 group-hover:scale-105">
@@ -197,7 +204,9 @@ const Rewards = () => {
                                     </div>
                                     <div className="relative p-8 pt-16 h-full flex flex-col justify-center items-center text-center transform group-hover:-translate-y-3 transition-transform duration-500">
                                         <div className="mb-6 transform group-hover:scale-110 group-hover:rotate-12 transition-all duration-500">
-                                            <div className="h-20 w-20 mx-auto text-red-400 drop-shadow-lg">❤️</div>
+                                            <div className="h-20 w-20 mx-auto text-red-400 drop-shadow-lg bg-gray-800 rounded-full flex items-center justify-center">
+                                                <img src={"/SP4.jpg"} alt="AI/ML Master" className="object-cover rounded-full" />
+                                            </div>
                                         </div>
                                         <h4 className="text-1xl font-bold mb-3 text-red-400 group-hover:text-red-300 transition-colors duration-300 drop-shadow-lg">AI/ML Master</h4>
                                         {/* <p className="text-sm text-gray-300 mb-6 group-hover:text-white transition-colors duration-300 drop-shadow-md">EXCEPTIONAL USER EXPERIENCE</p> */}
@@ -206,7 +215,7 @@ const Rewards = () => {
                                 </Card>
                             </div>
                         </div>
-
+                
                         {/* IOT Master */}
                         <div className="group relative cursor-blade perspective-1000">
                             <div className="relative w-full h-[350px] transform-style-preserve-3d transition-all duration-700 group-hover:rotate-y-6 group-hover:scale-105">
@@ -220,7 +229,9 @@ const Rewards = () => {
                                     </div>
                                     <div className="relative p-8 pt-16 h-full flex flex-col justify-center items-center text-center transform group-hover:-translate-y-3 transition-transform duration-500">
                                         <div className="mb-6 transform group-hover:scale-110 group-hover:rotate-12 transition-all duration-500">
-                                            <div className="h-20 w-20 mx-auto text-indigo-400 drop-shadow-lg">🤖</div>
+                                            <div className="h-20 w-20 mx-auto text-indigo-400 drop-shadow-lg bg-gray-800 rounded-full flex items-center justify-center">
+                                                <img src={"/SP5.jpg"} alt="IOT Master" className="object-cover rounded-full" />
+                                            </div>
                                         </div>
                                         <h4 className="text-1xl font-bold mb-3 text-indigo-400 group-hover:text-indigo-300 transition-colors duration-300 drop-shadow-lg">IOT Master</h4>
                                         {/* <p className="text-sm text-gray-300 mb-6 group-hover:text-white transition-colors duration-300 drop-shadow-md">EXCEPTIONAL USER EXPERIENCE</p> */}
