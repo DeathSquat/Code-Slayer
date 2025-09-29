@@ -18,7 +18,7 @@ const Navbar: React.FC = () => {
     { name: "TIMELINE", href: "#timeline" },
     { name: "TRACKS", href: "#tracks" },
     { name: "REWARDS", href: "#rewards" },
-    { name: "SPONSORS", href: "#sponsors" },
+    // { name: "SPONSORS", href: "#sponsors" },
     { name: "TEAM", href: "#team" },
     { name: "FAQS", href: "#faqs" },
     { name: "SWAG", href: "/swag-generator" },

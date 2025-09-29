@@ -74,7 +74,7 @@ const Index = () => {
         <Timeline />
         <Tracks />
         <Rewards />
-        <Sponsors />
+        {/* <Sponsors /> */}
         <Team />
         <FAQs />
         <Footer />
