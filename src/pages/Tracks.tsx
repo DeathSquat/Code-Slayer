@@ -195,7 +195,7 @@ const Tracks = () => {
         </div>
 
         <div className="relative z-10 max-w-7xl mx-auto">
-          <h2 className="text-4xl font-cinzel font-bold text-center mb-6 text-white">
+          <h2 className="text-4xl font-cinzel font-bold text-center mb-6 demon-text drop-shadow-lg flex flex-col items-center">
             Hackathon Tracks
             <div className="text-base mt-1 text-gray-300" style={{ fontSize: "0.85em" }}>
               ハッカソンのトラック

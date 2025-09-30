@@ -50,12 +50,6 @@ const Footer = () => {
               </h4>
               <div className="space-y-2">
                 <a
-                  href="#home"
-                  className="block text-muted-foreground hover:text-primary transition-colors cursor-blade hover:translate-x-1 duration-300"
-                >
-                  Home
-                </a>
-                <a
                   href="#about"
                   className="block text-muted-foreground hover:text-primary transition-colors cursor-blade hover:translate-x-1 duration-300"
                 >
@@ -73,6 +67,18 @@ const Footer = () => {
                 >
                   Tracks
                 </a>
+                <a
+                  href="#rewards"
+                  className="block text-muted-foreground hover:text-primary transition-colors cursor-blade hover:translate-x-1 duration-300"
+                >
+                  Rewards
+                </a>
+                <a
+                  href="#sponsors"
+                  className="block text-muted-foreground hover:text-primary transition-colors cursor-blade hover:translate-x-1 duration-300"
+                >
+                  Sponsors
+                </a>                                
                 <a
                   href="#team"
                   className="block text-muted-foreground hover:text-primary transition-colors cursor-blade hover:translate-x-1 duration-300"
