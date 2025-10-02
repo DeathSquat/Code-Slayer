@@ -102,7 +102,7 @@ const Footer = () => {
               <div className="space-y-2 text-muted-foreground">
                 <div className="flex items-center space-x-2 group hover:text-white transition-colors duration-300">
                   <MapPin className="h-4 w-4 text-accent group-hover:scale-110 transition-transform duration-300" />
-                  <p className="text-sm">DELHI</p>
+                  <p className="text-sm">NIT DELHI</p>
                 </div>
                 <div className="flex items-center space-x-2 group hover:text-white transition-colors duration-300">
                   <Mail className="h-4 w-4 text-accent group-hover:scale-110 transition-transform duration-300" />

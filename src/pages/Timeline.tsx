@@ -410,7 +410,7 @@ const Timeline = () => {
                                                     NOV<br />1
                                                 </div>
                                                 <div className="pr-10 relative z-10">
-                                                    <h3 className="text-lg font-bold text-red-200 mb-1 drop-shadow-lg">Hacking Period Starts</h3>
+                                                    <h3 className="text-lg font-bold text-red-200 mb-1 drop-shadow-lg">Hacking Period Starts (NIT Delhi)</h3>
                                                     <div className="text-sm text-red-300/80 mb-2 font-medium">戦闘開始</div>
                                                     <p className="text-red-300/90 font-medium text-sm leading-relaxed">The Code War Begins - Hack Like There's No Tomorrow!</p>
                                                 </div>
@@ -435,7 +435,7 @@ const Timeline = () => {
                                                     NOV<br />1
                                                 </div>
                                                 <div className="pr-12 relative z-10">
-                                                    <h3 className="text-xl font-bold text-red-200 mb-1 drop-shadow-lg">Hacking Period Starts</h3>
+                                                    <h3 className="text-xl font-bold text-red-200 mb-1 drop-shadow-lg">Hacking Period Starts (NIT Delhi)</h3>
                                                     <div className="text-sm text-red-300/80 mb-2 font-medium">戦闘開始</div>
                                                     <p className="text-red-300/90 font-medium text-sm leading-relaxed">The Code War Begins - Hack Like There's No Tomorrow!</p>
                                                 </div>
