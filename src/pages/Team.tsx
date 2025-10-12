@@ -118,7 +118,7 @@ const teamMembers = [
     {
         name: "Riya Mittal",
         linkedin: "https://www.linkedin.com/in/riya-mittal-777407321/",
-        image: "/Riya.jpg",
+        image: "/RiyaM.jpg",
         role: <>PR Team</>,
         color: "cyan"
     },
@@ -160,7 +160,7 @@ const teamMembers = [
     {
         name: "Riya Chhabra",
         linkedin: "https://www.linkedin.com/in/riya-chhabra-056821330/",
-        image: "/Riya.jpg",
+        image: "/RiyaC.webp",
         role: <>Social Team</>,
         color: "sky"
     },
