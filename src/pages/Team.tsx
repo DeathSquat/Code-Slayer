@@ -192,6 +192,20 @@ const teamMembers = [
         role: <>Management Team</>,
         color: "stone"
     },
+    {
+        name: "Santosh Kumar",
+        linkedin: "https://www.linkedin.com/in/santosh-kumar-verma-20899330a/",
+        image: "/Santosh.jpg",
+        role: <>Sponsorship Head</>,
+        color: "red"
+    },
+    {
+        name: "Advay Anand",
+        linkedin: "https://www.linkedin.com/in/advay-anand-a89024277/",
+        image: "/Advay.jpg",
+        role: <>Sponsorship Team</>,
+        color: "blue"
+    },
 ];
 const mentors = [
     // Add mentor objects here
@@ -216,8 +230,8 @@ const Team = () => {
     };
 
     // Split team members into two rows for different showcases
-    const firstRowMembers = teamMembers.slice(0, 9); // Nisha to Mansi Dixit
-    const secondRowMembers = teamMembers.slice(9); // Abhijna to Tushar
+    const firstRowMembers = teamMembers.slice(0, 10); // Nisha to Abhijna
+    const secondRowMembers = teamMembers.slice(10); // Tushar to Advay
 
     return (
         <section id="team" className="relative py-20 px-4 overflow-hidden">
@@ -385,7 +399,10 @@ const getColorGradient = (color: string) => {
         sky: 'from-sky-500/30 via-cyan-500/40 to-sky-500/30',
         fuchsia: 'from-fuchsia-500/30 via-purple-500/40 to-fuchsia-500/30',
         slate: 'from-slate-500/30 via-gray-500/40 to-slate-500/30',
-        stone: 'from-stone-500/30 via-neutral-500/40 to-stone-500/30'
+        stone: 'from-stone-500/30 via-neutral-500/40 to-stone-500/30',
+        red: 'from-red-500/30 via-rose-500/40 to-red-500/30',
+        blue: 'from-blue-500/30 via-indigo-500/40 to-blue-500/30',
+        yellow: 'from-yellow-500/30 via-amber-500/40 to-yellow-500/30'
     };
     return gradients[color] || gradients.green;
 };
@@ -407,7 +424,10 @@ const getBorderColor = (color: string) => {
         sky: 'border-sky-500/50 hover:border-sky-400/90',
         fuchsia: 'border-fuchsia-500/50 hover:border-fuchsia-400/90',
         slate: 'border-slate-500/50 hover:border-slate-400/90',
-        stone: 'border-stone-500/50 hover:border-stone-400/90'
+        stone: 'border-stone-500/50 hover:border-stone-400/90',
+        red: 'border-red-500/50 hover:border-red-400/90',
+        blue: 'border-blue-500/50 hover:border-blue-400/90',
+        yellow: 'border-yellow-500/50 hover:border-yellow-400/90',
     };
     return borders[color] || borders.green;
 };
@@ -429,7 +449,10 @@ const getHoverShadow = (color: string) => {
         sky: 'hover:shadow-sky-500/40',
         fuchsia: 'hover:shadow-fuchsia-500/40',
         slate: 'hover:shadow-slate-500/40',
-        stone: 'hover:shadow-stone-500/40'
+        stone: 'hover:shadow-stone-500/40',
+        red: 'hover:shadow-red-500/40',
+        blue: 'hover:shadow-blue-500/40',
+        yellow: 'hover:shadow-yellow-500/40'
     };
     return shadows[color] || shadows.green;
 };
@@ -451,7 +474,10 @@ const getTextColor = (color: string) => {
         sky: 'text-sky-400',
         fuchsia: 'text-fuchsia-400',
         slate: 'text-slate-400',
-        stone: 'text-stone-400'
+        stone: 'text-stone-400',
+        red: 'text-red-400',
+        blue: 'text-blue-400',
+        yellow: 'text-yellow-400'                
     };
     return textColors[color] || textColors.green;
 };
@@ -473,7 +499,10 @@ const getCheckColor = (color: string) => {
         sky: 'bg-sky-500',
         fuchsia: 'bg-fuchsia-500',
         slate: 'bg-slate-500',
-        stone: 'bg-stone-500'
+        stone: 'bg-stone-500',
+        red: 'bg-red-500',
+        blue: 'bg-blue-500',
+        yellow: 'bg-yellow-500'
     };
     return checkColors[color] || checkColors.green;
 };
@@ -495,7 +524,10 @@ const getRoleBg = (color: string) => {
         sky: 'bg-sky-500/20 text-sky-400 border-sky-500/30',
         fuchsia: 'bg-fuchsia-500/20 text-fuchsia-400 border-fuchsia-500/30',
         slate: 'bg-slate-500/20 text-slate-400 border-slate-500/30',
-        stone: 'bg-stone-500/20 text-stone-400 border-stone-500/30'
+        stone: 'bg-stone-500/20 text-stone-400 border-stone-500/30',
+        red: 'bg-red-500/20 text-red-400 border-red-500/30',
+        blue: 'bg-blue-500/20 text-blue-400 border-blue-500/30',
+        yellow: 'bg-yellow-500/20 text-yellow-400 border-yellow-500/30'        
     };
     return roleBgs[color] || roleBgs.green;
 };
@@ -517,7 +549,10 @@ const getButtonColor = (color: string) => {
         sky: 'bg-sky-600 hover:bg-sky-500 border-sky-500/50',
         fuchsia: 'bg-fuchsia-600 hover:bg-fuchsia-500 border-fuchsia-500/50',
         slate: 'bg-slate-600 hover:bg-slate-500 border-slate-500/50',
-        stone: 'bg-stone-600 hover:bg-stone-500 border-stone-500/50'
+        stone: 'bg-stone-600 hover:bg-stone-500 border-stone-500/50',
+        red: 'bg-red-600 hover:bg-red-500 border-red-500/50',
+        blue: 'bg-blue-600 hover:bg-blue-500 border-blue-500/50',
+        yellow: 'bg-yellow-600 hover:bg-yellow-500 border-yellow-500/50'        
     };
     return buttonColors[color] || buttonColors.green;
 };
@@ -539,7 +574,10 @@ const getHoverBg = (color: string) => {
         sky: 'from-sky-500/10',
         fuchsia: 'from-fuchsia-500/10',
         slate: 'from-slate-500/10',
-        stone: 'from-stone-500/10'
+        stone: 'from-stone-500/10',
+        red: 'from-red-500/10',
+        blue: 'from-blue-500/10',
+        yellow: 'from-yellow-500/10'        
     };
     return hoverBgs[color] || hoverBgs.green;
 };
@@ -561,7 +599,10 @@ const getAccentColor = (color: string) => {
         sky: 'via-sky-500',
         fuchsia: 'via-fuchsia-500',
         slate: 'via-slate-500',
-        stone: 'via-stone-500'
+        stone: 'via-stone-500',
+        red: 'via-red-500',
+        blue: 'via-blue-500',
+        yellow: 'via-yellow-500'        
     };
     return accentColors[color] || accentColors.green;
 };
