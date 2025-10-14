@@ -206,6 +206,13 @@ const teamMembers = [
         role: <>Sponsorship Team</>,
         color: "blue"
     },
+    {
+        name: "Mahi Tanpure",
+        linkedin: "https://www.linkedin.com/in/mahi-tanpure-570311261/",
+        image: "/Mahi.jpg",
+        role: <>Sponsorship Team</>,
+        color: "yellow"
+    },    
 ];
 const mentors = [
     // Add mentor objects here
