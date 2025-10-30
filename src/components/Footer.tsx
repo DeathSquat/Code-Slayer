@@ -166,6 +166,7 @@ const Footer = () => {
 
           <div className="text-center text-sm text-muted-foreground pt-8 border-t border-border/50">
             <p>© 2025 Code Slayer Hackathon. All rights reserved.</p>
+            <p className="mt-2">Created with 💖 by Developer Team</p>
           </div>
         </div>
       </footer>

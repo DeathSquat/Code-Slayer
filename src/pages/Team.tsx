@@ -223,7 +223,6 @@ const judges = [
 
 const tabs = [
     { label: "Team", value: "team" },
-    { label: "Mentors", value: "mentors" },
     { label: "Judges", value: "judges" },
 ];
 
@@ -231,7 +230,6 @@ const Team = () => {
     const [activeTab, setActiveTab] = useState("team");
     const getMembers = () => {
         if (activeTab === "team") return teamMembers;
-        if (activeTab === "mentors") return mentors;
         if (activeTab === "judges") return judges;
         return [];
     };
