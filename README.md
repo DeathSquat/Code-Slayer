@@ -69,9 +69,9 @@ A Demon Slayer–inspired hackathon project by **DeathSquat & contributors**
 ## Contributors
 
 * **DeathSquat (Trigger)**
-* **Satchelgg**
-* **Soumen Das (soumen0818)**
-* **Shivansh311**
+* **Ishaan Verma**
+* **Soumen Das**
+* **Nishant Sankar Swain**
 
 A big thanks to all for bringing this Code-Slayer vision to life!
 
