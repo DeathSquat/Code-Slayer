@@ -36,7 +36,7 @@ const Footer = () => {
               {/* Added Logo/Image */}
               <div className="mt-6 p-2 bg-card/50 rounded-lg border border-primary/20 inline-block">
                 <img
-                  src="https://res.cloudinary.com/drr3xypxn/image/upload/v1755663220/logo_thgntd.jpg"
+                  src="/favicon.ico"
                   alt="Hackathon Logo"
                   className="h-24 w-auto object-contain"
                 />
@@ -166,7 +166,7 @@ const Footer = () => {
 
           <div className="text-center text-sm text-muted-foreground pt-8 border-t border-border/50">
             <p>© 2025 Code Slayer Hackathon. All rights reserved.</p>
-            <p className="mt-2">Created with 💖 by Developer Team</p>
+            <p className="mt-2">Created with 💖 by Nishchay Chaurasia and Team</p>
           </div>
         </div>
       </footer>

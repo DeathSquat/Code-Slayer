@@ -172,12 +172,12 @@ const Tracks = () => {
   const [selectedTrack, setSelectedTrack] = useState<string | null>(null);
 
   const trackCards = [
-    { id: "healthcare", title: "Healthcare", description: "Transform healthcare with technology: patient care, data, and wellness.", image: "https://res.cloudinary.com/drr3xypxn/image/upload/v1755088259/healthcare_jr6luo.png", color: "pink" },
-    { id: "aiml", title: "AI/ML", description: "Build intelligent systems: machine learning, automation, and smart apps.", image: "https://res.cloudinary.com/drr3xypxn/image/upload/v1755088229/ai_ml_cdzka6.png", color: "purple" },
-    { id: "web3", title: "Web3 Development", description: "Build decentralized applications and blockchain solutions for the future.", image: "https://res.cloudinary.com/drr3xypxn/image/upload/v1755088246/web3_nl27wu.png", color: "blue" },
-    { id: "sustainability", title: "Sustainability", description: "Innovate for a greener future: energy, environment, and sustainable solutions.", image: "https://res.cloudinary.com/drr3xypxn/image/upload/v1755088234/sustainability_porhao.png", color: "green" },
+    { id: "healthcare", title: "Healthcare", description: "Transform healthcare with technology: patient care, data, and wellness.", image: "/Tracks/Health.png", color: "pink" },
+    { id: "aiml", title: "AI/ML", description: "Build intelligent systems: machine learning, automation, and smart apps.", image: "/Tracks/AI.jpg", color: "purple" },
+    { id: "web3", title: "Web3 Development", description: "Build decentralized applications and blockchain solutions for the future.", image: "/Tracks/Web3.webp", color: "blue" },
+    { id: "sustainability", title: "Sustainability", description: "Innovate for a greener future: energy, environment, and sustainable solutions.", image: "/Tracks/Sustainability.webp", color: "green" },
     { id: "iot", title: "Internet of Things", description: "Connect devices, analyze data, and build intelligent systems that bridge the physical and digital worlds.", image: "https://res.cloudinary.com/dembediei/image/upload/v1758026108/IoT_image_zrwgte.png", color: "cyan" },
-    { id: "openinnovation", title: "Open Innovation", description: "Create groundbreaking solutions across any domain with unlimited creativity.", image: "https://res.cloudinary.com/drr3xypxn/image/upload/v1755088260/open_innovation_vfestc.png", color: "orange" }
+    { id: "openinnovation", title: "Open Innovation", description: "Create groundbreaking solutions across any domain with unlimited creativity.", image: "/Tracks/Open.avif", color: "orange" }
   ];
 
   return (
