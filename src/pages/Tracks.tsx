@@ -186,7 +186,7 @@ const Tracks = () => {
         {/* Optimized background with single overlay */}
         <div className="absolute inset-0 w-full h-full">
           <img
-            src="https://res.cloudinary.com/drr3xypxn/image/upload/v1755089328/4_lrmplt.jpg"
+            src="/BGs/4.jpg"
             alt="Tracks Background"
             className="absolute inset-0 w-full h-full object-cover"
             loading="lazy"

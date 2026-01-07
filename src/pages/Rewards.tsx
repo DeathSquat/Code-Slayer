@@ -8,7 +8,7 @@ const Rewards = () => {
                 {/* Image Background (replaced video) */}
                 <div className="absolute inset-0 w-full h-full">
                     <img
-                        src="https://res.cloudinary.com/drr3xypxn/image/upload/v1755089344/5_j2tete.jpg"
+                        src="/BGs/5.jpg"
                         alt="Rewards Background"
                         className="absolute inset-0 w-full h-full object-cover"
                     />

@@ -43,7 +43,7 @@ const FAQs = () => {
                 {/* Background Image */}
                 <div className="absolute inset-0 z-0">
                     <img
-                        src="https://res.cloudinary.com/drr3xypxn/image/upload/v1755089318/8_ulejhr.jpg"
+                        src="/BGs/8.jpg"
                         alt="Team Background"
                         className="w-full h-full object-cover"
                     />
