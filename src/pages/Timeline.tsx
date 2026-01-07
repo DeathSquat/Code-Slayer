@@ -10,31 +10,31 @@ const Timeline = () => {
         },
         {
             title: "Idea Submissions Start",
-            image: "https://res.cloudinary.com/drr3xypxn/image/upload/v1755703656/414bdc37-5ef9-48d0-9f13-0c2d313de2b4.png"
+            image: "https://res.cloudinary.com/drr3xypxn/image/upload/v1755703486/7e14a5d9-6ece-4855-9811-8a038d977f71.png"
         },
         {
             title: "Registration Deadline",
-            image: "https://res.cloudinary.com/drr3xypxn/image/upload/v1755703968/deadline_uxu0dp.png"
+            image: "https://res.cloudinary.com/drr3xypxn/image/upload/v1755703486/7e14a5d9-6ece-4855-9811-8a038d977f71.png"
         },
         {
             title: "Idea Submission Deadline",
-            image: "https://res.cloudinary.com/drr3xypxn/image/upload/v1755705097/c354fe30-6f3f-42e0-b534-1a37266cc709.png"
+            image: "https://res.cloudinary.com/drr3xypxn/image/upload/v1755703486/7e14a5d9-6ece-4855-9811-8a038d977f71.png"
         },
         {
             title: "Shortlisted Teams Announcement",
-            image: "https://res.cloudinary.com/drr3xypxn/image/upload/v1755704984/4e2c4540-55ad-45e4-8df3-446c9a81d656.png"
+            image: "https://res.cloudinary.com/drr3xypxn/image/upload/v1755703486/7e14a5d9-6ece-4855-9811-8a038d977f71.png"
         },
         {
             title: "Hacking Period Starts",
-            image: "https://res.cloudinary.com/drr3xypxn/image/upload/v1755705264/ed0a8c7c-50e3-45bb-be66-a28f27e75533.png"
+            image: "https://res.cloudinary.com/drr3xypxn/image/upload/v1755703486/7e14a5d9-6ece-4855-9811-8a038d977f71.png"
         },
         {
             title: "Final Submission",
-            image: "https://res.cloudinary.com/drr3xypxn/image/upload/v1755705403/ab69d596-170c-414b-9765-7b0b8afcc5cc.png"
+            image: "https://res.cloudinary.com/drr3xypxn/image/upload/v1755703486/7e14a5d9-6ece-4855-9811-8a038d977f71.png"
         },
         {
             title: "Final Evaluation Result",
-            image: "https://res.cloudinary.com/drr3xypxn/image/upload/v1755705521/76e54f30-6d93-4f8f-ac44-379486d9bca9.png"
+            image: "https://res.cloudinary.com/drr3xypxn/image/upload/v1755703486/7e14a5d9-6ece-4855-9811-8a038d977f71.png"
         }
     ];
 

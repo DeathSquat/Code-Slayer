@@ -69,7 +69,7 @@ const teamMembers = [
     {
         name: "Nisha Kumari",
         linkedin: "http://www.linkedin.com/in/nisha-kumari-4588b1303",
-        image: "https://res.cloudinary.com/drr3xypxn/image/upload/v1755087931/Nisha_kumari_i5wr3f.jpg",
+        image: "/Nisha.jpg",
         role: <>Founder</>,
         color: "green"
     },
@@ -222,8 +222,8 @@ const judges = [
 ];
 
 const tabs = [
-    { label: "Team", value: "team" },
-    { label: "Judges", value: "judges" },
+    // { label: "Team", value: "team" },
+    // { label: "Judges", value: "judges" },
 ];
 
 const Team = () => {
@@ -242,7 +242,7 @@ const Team = () => {
         <section id="team" className="relative py-20 px-4 overflow-hidden">
             {/* Background Image & Overlays */}
             <div className="absolute inset-0 z-0">
-                <img src="/7.png" alt="Team Background" className="w-full h-full object-cover" />
+                <img src="/BGs/7.png" alt="Team Background" className="w-full h-full object-cover" />
                 <div className="absolute inset-0 bg-black/70"></div>
                 <div className="absolute inset-0 bg-gradient-to-b from-black/50 via-transparent to-black/50"></div>
             </div>
